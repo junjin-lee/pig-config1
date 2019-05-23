@@ -1,7 +1,7 @@
 #加密配置
 jasypt:
   encryptor:
-    password: lengleng
+    password: crmedical
 
 server:
   tomcat:
@@ -16,9 +16,9 @@ spring:
     password:
   rabbitmq:
     host: 127.0.0.1
-    port: 5672
-    username: pig
-    password: lengleng
+    port: 15672
+    username: guest
+    password: guest
   http:
     multipart:
       max-file-size: 1000MB
